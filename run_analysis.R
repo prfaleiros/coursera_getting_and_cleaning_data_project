@@ -98,4 +98,4 @@ tidyDS <-
     na.action = na.omit
   )
 
-write.table(tidyDS, './tidyDS.txt', sep = ',')
+write.table(tidyDS, './tidyDS.txt', sep = ',', row.names = FALSE)
